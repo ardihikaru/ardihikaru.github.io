@@ -4699,6 +4699,14 @@ span.badge {
 
 .mdi-toggle-radio-button-on:before {
   content: "\e8e4"; }
+
+/* BEGIN: Edited by Kucing */  
+
+/*.mdi-account-circle:before {
+  content: "\f009"; }*/
+
+/* END: Edited by Kucing */  
+
   
 .container {
   padding: 0 1.5rem;
@@ -5076,6 +5084,7 @@ nav {
 
 @media only screen and (min-width : 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    /*height: 64px;*/ /* EDITED by kucing */
     height: 64px;
     line-height: 64px; }
 
@@ -5563,14 +5572,14 @@ ul.tabs li.tab {
 
 .btn, .btn-large, .btn-flat {
   display: inline-block;
-  height: 36px;
+  height: 36px; /* kucing */
   margin-bottom: 15px;
   padding: 0 2rem;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
   background-clip: padding-box;
-  line-height: 36px;
+  line-height: 36px; 
   text-transform: uppercase;
   border: none;
   outline: 0;
@@ -5657,19 +5666,23 @@ ul.tabs li.tab {
   margin: 0px;
   min-width: 100px;
   z-index: 1000;
-  max-height: 70%;
+  /*max-height: 100%;*/
+  max-height: 70%;/* kucing */
   opacity: 0;
   overflow-y: hidden;
   will-change: width, height; }
   .dropdown-content li {
     cursor: pointer;
-    font-size: 1.2rem;
+    /*font-size: 1.2rem;*/
+    font-size: 1.0rem;
     color: rgba(0, 0, 0, 0.87);
-    line-height: 1.5rem; }
+    /*line-height: 1.5rem; }*/
+    line-height: 2.3rem; }
     .dropdown-content li:hover {
       background-color: rgba(0, 0, 0, 0.06); }
     .dropdown-content li > a, .dropdown-content li > span {
       display: block;
+      /*padding: 1rem 1rem;*/
       padding: 1rem 1rem;
       color: #26a69a; }
 
