@@ -5684,7 +5684,8 @@ ul.tabs li.tab {
       display: block;
       /*padding: 1rem 1rem;*/
       padding: 1rem 1rem;
-      color: #26a69a; }
+      color: black; /*#26a69a;*/ /* KUCING */
+    }
 
 /*!
  * Waves v0.6.0

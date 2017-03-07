@@ -1,3 +1,11 @@
+<?php
+
+// INCLUDES
+include("scripts/class/class.accessData.php");
+include("scripts/function/function.php");
+
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -33,13 +41,13 @@
 </head>
 
 
-<body class="cyan lighten-5">
+<body class="light-blue lighten-5">
 
-<div class="preloader cyan container-fluid row">
-    <div class="white-text text-darken-4 xpretext"><h4>My Lecturer Page</h4>
+<div class="preloader light-blue darken-4 container-fluid row">
+    <div class="white-text text-darken-4 xpretext"><h4>Lecturer's Page: M. F. Ardiansyah</h4>
     </div>
-    <div class="progress cyan lighten-2 xpreloading">
-        <div class="indeterminate cyan darken-3"></div>
+    <div class="progress light-blue lighten-2 xpreloading">
+        <div class="indeterminate light-blue darken-3"></div>
     </div>
 
 </div>
@@ -48,12 +56,25 @@
     include "includes/header.php";
 ?>
 
-<a class="darken-2 scrollToTop btn-floating btn-large waves-effect waves-light cyan"><i class="mdi-hardware-keyboard-arrow-up"></i></a>
+<a class="darken-2 scrollToTop btn-floating btn-large waves-effect waves-light blue"><i class="mdi-hardware-keyboard-arrow-up"></i></a>
 
 <div id="page-wrap">
     <div id="main-content">
         <?php
-            include "contents/home.php";
+            $path_dir = "contents/";
+
+            if ( isset($_GET['p']) ){
+                $curPage = $_GET['p'];
+
+                $fileName = getPage($path_dir, $curPage);
+                $is_beranda = false;
+            }else{
+                $curPage = 'common:homepage';
+                $fileName = getPage($path_dir, $curPage);
+            }
+            include $fileName;
+            //echo "curPage: $curPage <br/>";
+            //echo "fileName: $fileName <br/>";
         ?>
     </div>
 </div>

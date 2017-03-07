@@ -1,0 +1,6 @@
+Nama Developer = SIGECCO
+Website Developer = http://sigec.co
+Nama Klien = First Travel Sidoarjo
+Website Klien = http://firsttravel.co.id
+Nama Aplikasi Full = First Travel Database System
+Nama Aplikasi Alias = FirstTDS

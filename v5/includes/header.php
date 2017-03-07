@@ -1,11 +1,13 @@
 
 <header class="site-header">
     <div class="navbar-fixed">
-        <nav class="cyan darken-2 waves-effect waves-light">
+        <nav class="light-blue darken-4 waves-effect waves-light">
 
             <div class="nav-wrapper">
                 <div class="container">
-                    <a internal href="?/" class="brand-logo"><i class="mdi-social-person"></i> Ardi's Lecturer Page</a>
+                    <!-- <a internal href="?/" class="brand-logo"><i class="mdi-social-person"></i> M. F. Ardiansyah</a> -->
+                    <a internal href="?/" class="brand-logo hide-on-med-and-down"><i class="mdi-social-person"></i> M. F. Ardiansyah</a>
+                    <a internal href="?/" class="brand-logo hide-on-large-only"><i class="mdi-social-person"></i> ARDI</a>
                     <ul id="nav-mobile" class="right side-nav">
                         <!--
                         <li>
@@ -19,24 +21,26 @@
                             <a class="dropdown-button " href="#" data-activates="dropdown1" data-beloworigin="true">Profile<i class="material-icons right">arrow_drop_down</i></a>
 
                             <ul id="dropdown1" class="dropdown-content">
-                                <li><a href="#!">Research</a></li>
+                                <li><a href="?p=profile:about">About Me</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#!">Publications</a></li>
+                                <li><a href="?p=profile:research">Research</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#!">Achievements</a></li>
+                                <li><a href="?p=profile:publications">Publications</a></li>
+                                <li class="divider"></li>
+                                <li><a href="?p=profile:achievements">Achievements</a></li>
                             </ul>
 
                         </li>
 
                         <li>
-                            <a class="dropdown-button " href="#" data-activates="dropdown1" data-beloworigin="true">Lecture<i class="material-icons right">arrow_drop_down</i></a>
+                            <a class="dropdown-button " href="#" data-activates="dropdown1" data-beloworigin="true">Teaching<i class="material-icons right">arrow_drop_down</i></a>
 
                             <ul id="dropdown1" class="dropdown-content">
-                                <li><a href="#!">My Schedule</a></li>
+                                <li><a href="?p=teaching:schedules">My Schedule</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#!">Courses</a></li>
+                                <li><a href="?p=teaching:courses">Courses</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#!">Spvd.Students</a></li>
+                                <li><a href="?p=teaching:students">Spvd.Students</a></li>
                             </ul>
 
                         </li>
