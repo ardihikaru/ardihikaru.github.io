@@ -1,0 +1,48 @@
+title: "Muhammad Febrian Ardiansyah"
+email: xpzgndzb
+timezone: UTC
+baseurl: ""
+url: "https://ardihikaru.github.io"
+image_url: "https://lh3.googleusercontent.com/pw"
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+author: ardihikaru
+paginate: 30
+disqus: 'ardihikaru'
+locale: id_ID
+lang: id_ID
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: UA-113961478-1
+
+# Authors
+authors:
+  ardihikaru:
+    name: Muhammad Febrian Ardiansyah
+    display_name: ardihikaru
+    avatar: 'assets/images/authors/me.png'
+    email: mfardiansyah.id@gmail.com
+    web: https://mfardiansyah.id
+    description: "An experience professional Engineer born as a technology hunger"
+
+# Social
+social:
+  github: https://github.com/ardihikaru
+  linkedin: https://www.linkedin.com/in/muhammad-febrian-ardiansyah/
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
