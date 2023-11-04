@@ -2,6 +2,7 @@
 layout: post
 author: ardihikaru
 title:  "The first touch down!"
+short_intro:  "This article defines my first journey"
 categories: [ Story ]
 image: assets/images/2023/11/03-first-blog-post.jpg
 ---
